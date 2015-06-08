@@ -1,12 +1,10 @@
 FuMPCoin integration/staging tree
 ================================
 
-http://www.catcoins.org
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
 Copyright (c) 2013-2015 FuMPcoin Developers
-See the file CREDITS for further info on the cats responsible for this
 
 What is FuMPcoin?
 ----------------
