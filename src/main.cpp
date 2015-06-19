@@ -2311,7 +2311,8 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
         nHeight = pindexPrev->nHeight+1;
 
         // Check proof of work
-        if (nBits != GetNextWorkRequired(pindexPrev, this))
+        if (nBits != GetNextWorkRequired(pindexPrev, this) && nHeight > 10) // Ignore first 10 block of this coin!
+//        if (nBits != GetNextWorkRequired(pindexPrev, this))
             return state.DoS(100, error("AcceptBlock(height=%d) : incorrect proof of work", nHeight));
 	
         // Check timestamp against prev
