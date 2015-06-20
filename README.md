@@ -19,6 +19,8 @@ as a proof-of-work algorithm.
      the timestamp of when the last block was found
 
 This coin has NOT been released to the wild yet!  It is still in development!
+Genesis block will be regenned before actual release.  Consider all coin found 
+invalid, and play money.  
 
 License
 -------
